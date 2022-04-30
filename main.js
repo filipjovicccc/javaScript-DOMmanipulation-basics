@@ -197,3 +197,45 @@
 // container.insertBefore(newDiv, h1);
 
 // newDiv.style.fontSize = "30px";
+
+//EVENTS
+
+// function buttonClick() {
+//   alert("clicked");
+// }
+// buttonClick();  //stariji nacin eventa sa buttonClick() funkcijom koju doduse koristimo u reactu
+
+// let button = document
+//   .getElementById("button")
+//   .addEventListener("click", function () {
+//     alert("button CLICKED");
+//   });
+
+let button = document
+  .getElementById("button")
+  .addEventListener("click", buttonClick); // pozivajuca funkcija ovde ide bez ()
+
+// function buttonClick() {
+//   alert("clicked");
+
+//   document.getElementById("header-title").textContent = "Changed";  //na klick menjamo naslov i boju
+//   document.querySelector("#main").style.backgroundColor = "red";
+// }
+//(e) e-> evente koje dobijamo, target se najcesce koristi sam taj target
+
+// function buttonClick(e) {
+//   console.log(e.target);
+//   console.log(e.target.id);
+//   console.log(e.target.className);
+//   console.log(e.target.classList);
+//   let output = document.getElementById("output");
+//   output.innerHTML = `<h3>Hello</h3>`; ///na ddugme dodajemo hellop
+
+//   console.log(e.type); //da je nam tip eventa ako je click daje nam click
+
+// console.log(e.clientX);  //visisna mousa kolika je daleka od pocetka stranice
+// console.log(e.clientY);
+
+// console.log(e.altKey)
+
+// }
