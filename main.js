@@ -211,9 +211,11 @@
 //     alert("button CLICKED");
 //   });
 
-let button = document
-  .getElementById("button")
-  .addEventListener("click", buttonClick); // pozivajuca funkcija ovde ide bez ()
+// let button = document
+//   .getElementById("button")
+//   .addEventListener("click", buttonClick);
+
+// pozivajuca funkcija ovde ide bez ()
 
 // function buttonClick() {
 //   alert("clicked");
@@ -239,3 +241,5 @@ let button = document
 // console.log(e.altKey)
 
 // }
+
+document.getElementById();
