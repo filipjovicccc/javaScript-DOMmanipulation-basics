@@ -242,4 +242,45 @@
 
 // }
 
-document.getElementById();
+let button = document.getElementById("button");
+var box = document.getElementById("box");
+// .addEventListener("click", runEvent);
+//.addEventListener("dblclck", runEvent)
+//.addEventListener("mousedown", runEvent)
+//.addEventListener("mouseup", runEvent)
+// box.addEventListener("mouseenter", runEvent);
+// box.addEventListener("mouseleave", runEvent);
+// box.addEventListener("mouseout");
+// box.addEventListener("mousemove", runEvent);
+
+// box.add;
+
+// let itemInput = document.querySelector("input[type='text']");
+// let form = document.querySelector("form");
+
+// let select = document.querySelector("select")
+
+// select.addEventListener("change", runEvent)
+// change, za slusanje select opcije i slicnpo
+
+// itemInput.addEventListener("keydown", runEvent);
+//keyup
+//keypress
+//focus  //focus i blur
+//blur
+//input
+// let form = document.querySelectorAll(".form");
+// form.addEventListener("submit", runEvent);
+
+// function runEvent(e) {
+//   e.preventDefault();
+//   console.log("EVENT TYPE: " + e.type); 
+  
+  //za proveru eventa na dugmetu + e.type
+
+  // console.log(e.target.value);
+  // output = '<h3></h3>'
+  // document.getElementById("output").innerHTML = `<h3>${e.target.value}</h3>`;
+  // document.body.style.backgroundColor =
+  //   "rgb(" + e.offsetX + "," + e.offsetY + ",40)"; //div koji menja boje dobro zapamtiti
+// }
